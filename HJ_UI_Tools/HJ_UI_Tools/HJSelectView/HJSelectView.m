@@ -20,17 +20,16 @@
 @end
 
 @implementation HJSelectView
-+(instancetype)sharedHJSelectViewWithItems:(NSArray*)items didSelectRowBlock:(didSelectRowBlock)blcok
++(instancetype)sharedHJSelectViewWithItems:(NSArray*)items
 {
-        return [[self alloc]initWithItems:items didSelectRowBlock:blcok];
+        return [[self alloc]initWithItems:items];
 }
 
-- (instancetype)initWithItems:(NSArray*)items didSelectRowBlock:(didSelectRowBlock)blcok
+- (instancetype)initWithItems:(NSArray*)items
 {
     self = [super init];
     if (self) {
         self.items = items;
-        _didselectBlock = blcok;
 
         self.frame =[UIScreen mainScreen].bounds;
         
@@ -56,7 +55,6 @@
 }
 
 
-//    UIImagePickerController
 #pragma mark - tableview代理方法
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -81,8 +79,8 @@
     
     [self removeFromSuperview];
 
-    if (_didselectBlock) {
-        _didselectBlock(indexPath.row);
+    if (self.didselectBlock) {
+        self.didselectBlock(indexPath.row);
 
     }
 }
@@ -92,9 +90,9 @@
     [self removeFromSuperview];
 }
 
-- (void)show
+- (void)showDidSelectRowBlock:(didSelectRowBlock)blcok
 {
     [ [ [ UIApplication  sharedApplication ]  keyWindow ] addSubview : self ] ;
-
+    self.didselectBlock = blcok;
 }
 @end

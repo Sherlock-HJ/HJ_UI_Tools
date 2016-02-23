@@ -16,6 +16,7 @@
 		51BE16911C7C4D8100090CC9 /* HJ_UI_ToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE16901C7C4D8100090CC9 /* HJ_UI_ToolsTests.m */; };
 		51BE169C1C7C4D8100090CC9 /* HJ_UI_ToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE169B1C7C4D8100090CC9 /* HJ_UI_ToolsUITests.m */; };
 		51BE16AC1C7C578400090CC9 /* HJSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE16AB1C7C578400090CC9 /* HJSelectView.m */; };
+		51BE16B11C7CB34B00090CC9 /* HJPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE16AF1C7CB34B00090CC9 /* HJPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		51BE169D1C7C4D8100090CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51BE16AA1C7C578400090CC9 /* HJSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSelectView.h; sourceTree = "<group>"; };
 		51BE16AB1C7C578400090CC9 /* HJSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSelectView.m; sourceTree = "<group>"; };
+		51BE16AE1C7CB34B00090CC9 /* HJPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPageControl.h; sourceTree = "<group>"; };
+		51BE16AF1C7CB34B00090CC9 /* HJPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPageControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,7 @@
 				51BE167A1C7C4D8100090CC9 /* AppDelegate.m */,
 				51BE167C1C7C4D8100090CC9 /* ViewController.h */,
 				51BE167D1C7C4D8100090CC9 /* ViewController.m */,
+				51BE16AD1C7CB34B00090CC9 /* HJPageControl */,
 				51BE16A91C7C578400090CC9 /* HJSelectView */,
 				51BE167F1C7C4D8100090CC9 /* Main.storyboard */,
 				51BE16821C7C4D8100090CC9 /* Assets.xcassets */,
@@ -151,6 +155,15 @@
 				51BE16AB1C7C578400090CC9 /* HJSelectView.m */,
 			);
 			path = HJSelectView;
+			sourceTree = "<group>";
+		};
+		51BE16AD1C7CB34B00090CC9 /* HJPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				51BE16AE1C7CB34B00090CC9 /* HJPageControl.h */,
+				51BE16AF1C7CB34B00090CC9 /* HJPageControl.m */,
+			);
+			path = HJPageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51BE167E1C7C4D8100090CC9 /* ViewController.m in Sources */,
+				51BE16B11C7CB34B00090CC9 /* HJPageControl.m in Sources */,
 				51BE167B1C7C4D8100090CC9 /* AppDelegate.m in Sources */,
 				51BE16AC1C7C578400090CC9 /* HJSelectView.m in Sources */,
 				51BE16781C7C4D8100090CC9 /* main.m in Sources */,

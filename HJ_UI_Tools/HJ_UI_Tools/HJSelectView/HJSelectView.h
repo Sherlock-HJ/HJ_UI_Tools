@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 typedef void(^didSelectRowBlock)(NSInteger row);
 @interface HJSelectView : UIView
-
-+(instancetype)sharedHJSelectViewWithItems:( NSArray*)items didSelectRowBlock:(didSelectRowBlock)blcok;
-
-- (void)show;
+/**传入想要显示的NSString数组*/
++(instancetype)sharedHJSelectViewWithItems:( NSArray*)items;
+/**展示HJSelectView*/
+- (void)showDidSelectRowBlock:(didSelectRowBlock)blcok;
 @end
