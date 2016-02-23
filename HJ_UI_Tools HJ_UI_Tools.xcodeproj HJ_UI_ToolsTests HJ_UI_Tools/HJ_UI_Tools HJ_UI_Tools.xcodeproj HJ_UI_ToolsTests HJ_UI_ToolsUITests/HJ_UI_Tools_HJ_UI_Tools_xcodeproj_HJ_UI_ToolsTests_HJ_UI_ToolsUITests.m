@@ -1,6 +1,6 @@
 //
-//  HJ_UI_ToolsUITests.m
-//  HJ_UI_ToolsUITests
+//  HJ_UI_Tools_HJ_UI_Tools_xcodeproj_HJ_UI_ToolsTests_HJ_UI_ToolsUITests.m
+//  HJ_UI_Tools HJ_UI_Tools.xcodeproj HJ_UI_ToolsTests HJ_UI_ToolsUITests
 //
 //  Created by 吴宏佳 on 16/2/23.
 //  Copyright © 2016年 吴宏佳. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface HJ_UI_ToolsUITests : XCTestCase
+@interface HJ_UI_Tools_HJ_UI_Tools_xcodeproj_HJ_UI_ToolsTests_HJ_UI_ToolsUITests : XCTestCase
 
 @end
 
-@implementation HJ_UI_ToolsUITests
+@implementation HJ_UI_Tools_HJ_UI_Tools_xcodeproj_HJ_UI_ToolsTests_HJ_UI_ToolsUITests
 
 - (void)setUp {
     [super setUp];
