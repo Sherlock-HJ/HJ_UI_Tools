@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "HJSelectView.h"
 @interface ViewController ()
 
 @end
@@ -18,10 +18,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    HJSelectView *hjSV = [HJSelectView sharedHJSelectViewWithItems:@[@"sdf",@"dfd"] didSelectRowBlock:^(NSInteger row) {
+        NSLog(@"%ld",(long)row);
+    }];
+    [hjSV show];
 }
-
 @end

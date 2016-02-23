@@ -15,6 +15,7 @@
 		51BE16861C7C4D8100090CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BE16841C7C4D8100090CC9 /* LaunchScreen.storyboard */; };
 		51BE16911C7C4D8100090CC9 /* HJ_UI_ToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE16901C7C4D8100090CC9 /* HJ_UI_ToolsTests.m */; };
 		51BE169C1C7C4D8100090CC9 /* HJ_UI_ToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE169B1C7C4D8100090CC9 /* HJ_UI_ToolsUITests.m */; };
+		51BE16AC1C7C578400090CC9 /* HJSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE16AB1C7C578400090CC9 /* HJSelectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		51BE16971C7C4D8100090CC9 /* HJ_UI_ToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJ_UI_ToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BE169B1C7C4D8100090CC9 /* HJ_UI_ToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJ_UI_ToolsUITests.m; sourceTree = "<group>"; };
 		51BE169D1C7C4D8100090CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BE16AA1C7C578400090CC9 /* HJSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSelectView.h; sourceTree = "<group>"; };
+		51BE16AB1C7C578400090CC9 /* HJSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSelectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				51BE167A1C7C4D8100090CC9 /* AppDelegate.m */,
 				51BE167C1C7C4D8100090CC9 /* ViewController.h */,
 				51BE167D1C7C4D8100090CC9 /* ViewController.m */,
+				51BE16A91C7C578400090CC9 /* HJSelectView */,
 				51BE167F1C7C4D8100090CC9 /* Main.storyboard */,
 				51BE16821C7C4D8100090CC9 /* Assets.xcassets */,
 				51BE16841C7C4D8100090CC9 /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				51BE169D1C7C4D8100090CC9 /* Info.plist */,
 			);
 			path = HJ_UI_ToolsUITests;
+			sourceTree = "<group>";
+		};
+		51BE16A91C7C578400090CC9 /* HJSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				51BE16AA1C7C578400090CC9 /* HJSelectView.h */,
+				51BE16AB1C7C578400090CC9 /* HJSelectView.m */,
+			);
+			path = HJSelectView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				51BE167E1C7C4D8100090CC9 /* ViewController.m in Sources */,
 				51BE167B1C7C4D8100090CC9 /* AppDelegate.m in Sources */,
+				51BE16AC1C7C578400090CC9 /* HJSelectView.m in Sources */,
 				51BE16781C7C4D8100090CC9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HJ_UI_Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.whirlie.HJ-UI-Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HJ_UI_Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.whirlie.HJ-UI-Tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
