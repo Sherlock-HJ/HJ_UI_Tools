@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5157766C1C7DE74000CB1C85 /* HJSudokuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5157766B1C7DE74000CB1C85 /* HJSudokuModel.m */; };
 		51BE16781C7C4D8100090CC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE16771C7C4D8100090CC9 /* main.m */; };
 		51BE167B1C7C4D8100090CC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE167A1C7C4D8100090CC9 /* AppDelegate.m */; };
 		51BE167E1C7C4D8100090CC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE167D1C7C4D8100090CC9 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5157766A1C7DE74000CB1C85 /* HJSudokuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJSudokuModel.h; sourceTree = "<group>"; };
+		5157766B1C7DE74000CB1C85 /* HJSudokuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSudokuModel.m; sourceTree = "<group>"; };
 		51BE16731C7C4D8100090CC9 /* HJ_UI_Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJ_UI_Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BE16771C7C4D8100090CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51BE16791C7C4D8100090CC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		515776691C7DE74000CB1C85 /* SudokuModel */ = {
+			isa = PBXGroup;
+			children = (
+				5157766A1C7DE74000CB1C85 /* HJSudokuModel.h */,
+				5157766B1C7DE74000CB1C85 /* HJSudokuModel.m */,
+			);
+			path = SudokuModel;
+			sourceTree = "<group>";
+		};
 		51BE166A1C7C4D8100090CC9 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +123,7 @@
 				51BE167A1C7C4D8100090CC9 /* AppDelegate.m */,
 				51BE167C1C7C4D8100090CC9 /* ViewController.h */,
 				51BE167D1C7C4D8100090CC9 /* ViewController.m */,
+				515776691C7DE74000CB1C85 /* SudokuModel */,
 				51BE16AD1C7CB34B00090CC9 /* HJPageControl */,
 				51BE16A91C7C578400090CC9 /* HJSelectView */,
 				51BE167F1C7C4D8100090CC9 /* Main.storyboard */,
@@ -298,6 +311,7 @@
 			files = (
 				51BE167E1C7C4D8100090CC9 /* ViewController.m in Sources */,
 				51BE16B11C7CB34B00090CC9 /* HJPageControl.m in Sources */,
+				5157766C1C7DE74000CB1C85 /* HJSudokuModel.m in Sources */,
 				51BE167B1C7C4D8100090CC9 /* AppDelegate.m in Sources */,
 				51BE16AC1C7C578400090CC9 /* HJSelectView.m in Sources */,
 				51BE16781C7C4D8100090CC9 /* main.m in Sources */,
@@ -528,6 +542,7 @@
 				51BE16A21C7C4D8100090CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51BE16A31C7C4D8100090CC9 /* Build configuration list for PBXNativeTarget "HJ_UI_ToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +551,7 @@
 				51BE16A51C7C4D8100090CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51BE16A61C7C4D8100090CC9 /* Build configuration list for PBXNativeTarget "HJ_UI_ToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +560,7 @@
 				51BE16A81C7C4D8100090CC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,13 +1,13 @@
 //
-//  WhyPageControl.h
-//  why封装的小UI工具
+//  HJPageControl.h
+//  
 //
 //  Created by ma c on 15/11/7.
 //  Copyright (c) 2015年 bjsxt. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-
+/**吴宏佳的页码控制器*/
 NS_CLASS_AVAILABLE_IOS(2_0)@interface HJPageControl : UIControl
 
 typedef NS_ENUM(NSInteger, WhyPageStyle) {

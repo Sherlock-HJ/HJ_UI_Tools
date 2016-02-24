@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 typedef void(^didSelectRowBlock)(NSInteger row);
+/**吴宏佳的选择列表*/
 @interface HJSelectView : UIView
 /**传入想要显示的NSString数组*/
 +(instancetype)sharedHJSelectViewWithItems:( NSArray*)items;

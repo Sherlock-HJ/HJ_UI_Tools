@@ -1,6 +1,6 @@
 //
-//  WhyPageControl.m
-//  why封装的小UI工具
+//  HJPageControl.m
+//
 //
 //  Created by ma c on 15/11/7.
 //  Copyright (c) 2015年 bjsxt. All rights reserved.

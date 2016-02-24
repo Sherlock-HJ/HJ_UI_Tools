@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "HJSelectView.h"
 #import "HJPageControl.h"
+#import "HJSudokuModel.h"
 @interface ViewController ()
 
 @end
@@ -18,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    /**页码控制器用法示例*/
     HJPageControl *pageWhy = [[HJPageControl alloc]initWithFrame:CGRectMake(0, 330, 375, 30) style:WhyPageStyleRectangle];
     pageWhy.backgroundColor = [UIColor yellowColor];
     pageWhy.numberOfPages = 10;
@@ -27,7 +28,12 @@
     
     [self.view addSubview:pageWhy];
 
-    // Do any additional setup after loading the view, typically from a nib.
+/**九宫格用法示例*/
+    [HJSudokuModel sudokuWithsudokuY:100 Width:100 height:20 column:3 total:8 block:^(CGRect frame, NSInteger index) {
+        UILabel *lab = [[UILabel alloc]initWithFrame:frame];
+        lab.backgroundColor = [UIColor orangeColor];
+        [self.view addSubview:lab];
+    }];
 }
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
