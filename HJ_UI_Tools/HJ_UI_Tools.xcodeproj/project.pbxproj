@@ -18,6 +18,31 @@
 		51BE169C1C7C4D8100090CC9 /* HJ_UI_ToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE169B1C7C4D8100090CC9 /* HJ_UI_ToolsUITests.m */; };
 		51BE16AC1C7C578400090CC9 /* HJSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE16AB1C7C578400090CC9 /* HJSelectView.m */; };
 		51BE16B11C7CB34B00090CC9 /* HJPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BE16AF1C7CB34B00090CC9 /* HJPageControl.m */; };
+		E8D0D6F01ECA926800A99516 /* BaseParameterObj.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6B41ECA926800A99516 /* BaseParameterObj.m */; };
+		E8D0D6F11ECA926800A99516 /* BaseResultObj.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6B61ECA926800A99516 /* BaseResultObj.m */; };
+		E8D0D6F21ECA926800A99516 /* UserParameterObj.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6B81ECA926800A99516 /* UserParameterObj.m */; };
+		E8D0D6F31ECA926800A99516 /* CacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6BB1ECA926800A99516 /* CacheTool.m */; };
+		E8D0D6F41ECA926800A99516 /* NSNumber+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6BE1ECA926800A99516 /* NSNumber+Tool.m */; };
+		E8D0D6F51ECA926800A99516 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6C01ECA926800A99516 /* NSString+Tool.m */; };
+		E8D0D6F61ECA926800A99516 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6C21ECA926800A99516 /* UIView+HUD.m */; };
+		E8D0D6F71ECA926800A99516 /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6C51ECA926800A99516 /* HttpClient.m */; };
+		E8D0D6F81ECA926800A99516 /* ImgZoomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6C81ECA926800A99516 /* ImgZoomVC.m */; };
+		E8D0D6F91ECA926900A99516 /* LocationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6CB1ECA926800A99516 /* LocationTool.m */; };
+		E8D0D6FA1ECA926900A99516 /* OftenUse.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6CD1ECA926800A99516 /* OftenUse.m */; };
+		E8D0D6FB1ECA926900A99516 /* PayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6D11ECA926800A99516 /* PayVC.m */; };
+		E8D0D6FC1ECA926900A99516 /* PayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D0D6D21ECA926800A99516 /* PayVC.xib */; };
+		E8D0D6FD1ECA926900A99516 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6D51ECA926800A99516 /* Order.m */; };
+		E8D0D6FE1ECA926900A99516 /* payCellDatas.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8D0D6D61ECA926800A99516 /* payCellDatas.plist */; };
+		E8D0D6FF1ECA926900A99516 /* payCellObj.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6D81ECA926800A99516 /* payCellObj.m */; };
+		E8D0D7001ECA926900A99516 /* PayParamObj.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6DA1ECA926800A99516 /* PayParamObj.m */; };
+		E8D0D7011ECA926900A99516 /* PayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6DD1ECA926800A99516 /* PayTool.m */; };
+		E8D0D7021ECA926900A99516 /* PayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6E01ECA926800A99516 /* PayCell.m */; };
+		E8D0D7031ECA926900A99516 /* PayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D0D6E11ECA926800A99516 /* PayCell.xib */; };
+		E8D0D7041ECA926900A99516 /* QrCodeScanningVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6E51ECA926800A99516 /* QrCodeScanningVC.m */; };
+		E8D0D7051ECA926900A99516 /* GrayBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6E81ECA926800A99516 /* GrayBackgroundLayer.m */; };
+		E8D0D7061ECA926900A99516 /* QrCodeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6EA1ECA926800A99516 /* QrCodeLayer.m */; };
+		E8D0D7071ECA926900A99516 /* SelectMainWindowTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6EC1ECA926800A99516 /* SelectMainWindowTool.m */; };
+		E8D0D7081ECA926900A99516 /* StarsView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D0D6EF1ECA926800A99516 /* StarsView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +85,53 @@
 		51BE16AB1C7C578400090CC9 /* HJSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJSelectView.m; sourceTree = "<group>"; };
 		51BE16AE1C7CB34B00090CC9 /* HJPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJPageControl.h; sourceTree = "<group>"; };
 		51BE16AF1C7CB34B00090CC9 /* HJPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJPageControl.m; sourceTree = "<group>"; };
+		E8D0D6B31ECA926800A99516 /* BaseParameterObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseParameterObj.h; sourceTree = "<group>"; };
+		E8D0D6B41ECA926800A99516 /* BaseParameterObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseParameterObj.m; sourceTree = "<group>"; };
+		E8D0D6B51ECA926800A99516 /* BaseResultObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseResultObj.h; sourceTree = "<group>"; };
+		E8D0D6B61ECA926800A99516 /* BaseResultObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseResultObj.m; sourceTree = "<group>"; };
+		E8D0D6B71ECA926800A99516 /* UserParameterObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserParameterObj.h; sourceTree = "<group>"; };
+		E8D0D6B81ECA926800A99516 /* UserParameterObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserParameterObj.m; sourceTree = "<group>"; };
+		E8D0D6BA1ECA926800A99516 /* CacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheTool.h; sourceTree = "<group>"; };
+		E8D0D6BB1ECA926800A99516 /* CacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheTool.m; sourceTree = "<group>"; };
+		E8D0D6BD1ECA926800A99516 /* NSNumber+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Tool.h"; sourceTree = "<group>"; };
+		E8D0D6BE1ECA926800A99516 /* NSNumber+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Tool.m"; sourceTree = "<group>"; };
+		E8D0D6BF1ECA926800A99516 /* NSString+Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tool.h"; sourceTree = "<group>"; };
+		E8D0D6C01ECA926800A99516 /* NSString+Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tool.m"; sourceTree = "<group>"; };
+		E8D0D6C11ECA926800A99516 /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
+		E8D0D6C21ECA926800A99516 /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
+		E8D0D6C41ECA926800A99516 /* HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
+		E8D0D6C51ECA926800A99516 /* HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
+		E8D0D6C71ECA926800A99516 /* ImgZoomVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgZoomVC.h; sourceTree = "<group>"; };
+		E8D0D6C81ECA926800A99516 /* ImgZoomVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgZoomVC.m; sourceTree = "<group>"; };
+		E8D0D6CA1ECA926800A99516 /* LocationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTool.h; sourceTree = "<group>"; };
+		E8D0D6CB1ECA926800A99516 /* LocationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTool.m; sourceTree = "<group>"; };
+		E8D0D6CC1ECA926800A99516 /* OftenUse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OftenUse.h; sourceTree = "<group>"; };
+		E8D0D6CD1ECA926800A99516 /* OftenUse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OftenUse.m; sourceTree = "<group>"; };
+		E8D0D6D01ECA926800A99516 /* PayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayVC.h; sourceTree = "<group>"; };
+		E8D0D6D11ECA926800A99516 /* PayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayVC.m; sourceTree = "<group>"; };
+		E8D0D6D21ECA926800A99516 /* PayVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayVC.xib; sourceTree = "<group>"; };
+		E8D0D6D41ECA926800A99516 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		E8D0D6D51ECA926800A99516 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		E8D0D6D61ECA926800A99516 /* payCellDatas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = payCellDatas.plist; sourceTree = "<group>"; };
+		E8D0D6D71ECA926800A99516 /* payCellObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = payCellObj.h; sourceTree = "<group>"; };
+		E8D0D6D81ECA926800A99516 /* payCellObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = payCellObj.m; sourceTree = "<group>"; };
+		E8D0D6D91ECA926800A99516 /* PayParamObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayParamObj.h; sourceTree = "<group>"; };
+		E8D0D6DA1ECA926800A99516 /* PayParamObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayParamObj.m; sourceTree = "<group>"; };
+		E8D0D6DC1ECA926800A99516 /* PayTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayTool.h; sourceTree = "<group>"; };
+		E8D0D6DD1ECA926800A99516 /* PayTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayTool.m; sourceTree = "<group>"; };
+		E8D0D6DF1ECA926800A99516 /* PayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayCell.h; sourceTree = "<group>"; };
+		E8D0D6E01ECA926800A99516 /* PayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayCell.m; sourceTree = "<group>"; };
+		E8D0D6E11ECA926800A99516 /* PayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayCell.xib; sourceTree = "<group>"; };
+		E8D0D6E41ECA926800A99516 /* QrCodeScanningVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QrCodeScanningVC.h; sourceTree = "<group>"; };
+		E8D0D6E51ECA926800A99516 /* QrCodeScanningVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QrCodeScanningVC.m; sourceTree = "<group>"; };
+		E8D0D6E71ECA926800A99516 /* GrayBackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrayBackgroundLayer.h; sourceTree = "<group>"; };
+		E8D0D6E81ECA926800A99516 /* GrayBackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrayBackgroundLayer.m; sourceTree = "<group>"; };
+		E8D0D6E91ECA926800A99516 /* QrCodeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QrCodeLayer.h; sourceTree = "<group>"; };
+		E8D0D6EA1ECA926800A99516 /* QrCodeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QrCodeLayer.m; sourceTree = "<group>"; };
+		E8D0D6EB1ECA926800A99516 /* SelectMainWindowTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectMainWindowTool.h; sourceTree = "<group>"; };
+		E8D0D6EC1ECA926800A99516 /* SelectMainWindowTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectMainWindowTool.m; sourceTree = "<group>"; };
+		E8D0D6EE1ECA926800A99516 /* StarsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarsView.h; sourceTree = "<group>"; };
+		E8D0D6EF1ECA926800A99516 /* StarsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarsView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +199,7 @@
 				51BE16AD1C7CB34B00090CC9 /* HJPageControl */,
 				51BE16A91C7C578400090CC9 /* HJSelectView */,
 				51BE167F1C7C4D8100090CC9 /* Main.storyboard */,
+				E8D0D6B11ECA926800A99516 /* Myself */,
 				51BE16821C7C4D8100090CC9 /* Assets.xcassets */,
 				51BE16841C7C4D8100090CC9 /* LaunchScreen.storyboard */,
 				51BE16871C7C4D8100090CC9 /* Info.plist */,
@@ -177,6 +250,180 @@
 				51BE16AF1C7CB34B00090CC9 /* HJPageControl.m */,
 			);
 			path = HJPageControl;
+			sourceTree = "<group>";
+		};
+		E8D0D6B11ECA926800A99516 /* Myself */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6B21ECA926800A99516 /* Base */,
+				E8D0D6B91ECA926800A99516 /* CacheTool */,
+				E8D0D6BC1ECA926800A99516 /* Category */,
+				E8D0D6C31ECA926800A99516 /* HttpClient */,
+				E8D0D6C61ECA926800A99516 /* ImgZoom */,
+				E8D0D6C91ECA926800A99516 /* LocationTool */,
+				E8D0D6CC1ECA926800A99516 /* OftenUse.h */,
+				E8D0D6CD1ECA926800A99516 /* OftenUse.m */,
+				E8D0D6CE1ECA926800A99516 /* Pay */,
+				E8D0D6E21ECA926800A99516 /* QrCodeScanningVC */,
+				E8D0D6EB1ECA926800A99516 /* SelectMainWindowTool.h */,
+				E8D0D6EC1ECA926800A99516 /* SelectMainWindowTool.m */,
+				E8D0D6ED1ECA926800A99516 /* StarsView */,
+			);
+			path = Myself;
+			sourceTree = "<group>";
+		};
+		E8D0D6B21ECA926800A99516 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6B31ECA926800A99516 /* BaseParameterObj.h */,
+				E8D0D6B41ECA926800A99516 /* BaseParameterObj.m */,
+				E8D0D6B51ECA926800A99516 /* BaseResultObj.h */,
+				E8D0D6B61ECA926800A99516 /* BaseResultObj.m */,
+				E8D0D6B71ECA926800A99516 /* UserParameterObj.h */,
+				E8D0D6B81ECA926800A99516 /* UserParameterObj.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E8D0D6B91ECA926800A99516 /* CacheTool */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6BA1ECA926800A99516 /* CacheTool.h */,
+				E8D0D6BB1ECA926800A99516 /* CacheTool.m */,
+			);
+			path = CacheTool;
+			sourceTree = "<group>";
+		};
+		E8D0D6BC1ECA926800A99516 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6BD1ECA926800A99516 /* NSNumber+Tool.h */,
+				E8D0D6BE1ECA926800A99516 /* NSNumber+Tool.m */,
+				E8D0D6BF1ECA926800A99516 /* NSString+Tool.h */,
+				E8D0D6C01ECA926800A99516 /* NSString+Tool.m */,
+				E8D0D6C11ECA926800A99516 /* UIView+HUD.h */,
+				E8D0D6C21ECA926800A99516 /* UIView+HUD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E8D0D6C31ECA926800A99516 /* HttpClient */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6C41ECA926800A99516 /* HttpClient.h */,
+				E8D0D6C51ECA926800A99516 /* HttpClient.m */,
+			);
+			path = HttpClient;
+			sourceTree = "<group>";
+		};
+		E8D0D6C61ECA926800A99516 /* ImgZoom */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6C71ECA926800A99516 /* ImgZoomVC.h */,
+				E8D0D6C81ECA926800A99516 /* ImgZoomVC.m */,
+			);
+			path = ImgZoom;
+			sourceTree = "<group>";
+		};
+		E8D0D6C91ECA926800A99516 /* LocationTool */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6CA1ECA926800A99516 /* LocationTool.h */,
+				E8D0D6CB1ECA926800A99516 /* LocationTool.m */,
+			);
+			path = LocationTool;
+			sourceTree = "<group>";
+		};
+		E8D0D6CE1ECA926800A99516 /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6CF1ECA926800A99516 /* Controller */,
+				E8D0D6D31ECA926800A99516 /* Model */,
+				E8D0D6DB1ECA926800A99516 /* Tool */,
+				E8D0D6DE1ECA926800A99516 /* View */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		E8D0D6CF1ECA926800A99516 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6D01ECA926800A99516 /* PayVC.h */,
+				E8D0D6D11ECA926800A99516 /* PayVC.m */,
+				E8D0D6D21ECA926800A99516 /* PayVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E8D0D6D31ECA926800A99516 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6D41ECA926800A99516 /* Order.h */,
+				E8D0D6D51ECA926800A99516 /* Order.m */,
+				E8D0D6D61ECA926800A99516 /* payCellDatas.plist */,
+				E8D0D6D71ECA926800A99516 /* payCellObj.h */,
+				E8D0D6D81ECA926800A99516 /* payCellObj.m */,
+				E8D0D6D91ECA926800A99516 /* PayParamObj.h */,
+				E8D0D6DA1ECA926800A99516 /* PayParamObj.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E8D0D6DB1ECA926800A99516 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6DC1ECA926800A99516 /* PayTool.h */,
+				E8D0D6DD1ECA926800A99516 /* PayTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E8D0D6DE1ECA926800A99516 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6DF1ECA926800A99516 /* PayCell.h */,
+				E8D0D6E01ECA926800A99516 /* PayCell.m */,
+				E8D0D6E11ECA926800A99516 /* PayCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8D0D6E21ECA926800A99516 /* QrCodeScanningVC */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6E31ECA926800A99516 /* Controller */,
+				E8D0D6E61ECA926800A99516 /* View */,
+			);
+			path = QrCodeScanningVC;
+			sourceTree = "<group>";
+		};
+		E8D0D6E31ECA926800A99516 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6E41ECA926800A99516 /* QrCodeScanningVC.h */,
+				E8D0D6E51ECA926800A99516 /* QrCodeScanningVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E8D0D6E61ECA926800A99516 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6E71ECA926800A99516 /* GrayBackgroundLayer.h */,
+				E8D0D6E81ECA926800A99516 /* GrayBackgroundLayer.m */,
+				E8D0D6E91ECA926800A99516 /* QrCodeLayer.h */,
+				E8D0D6EA1ECA926800A99516 /* QrCodeLayer.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E8D0D6ED1ECA926800A99516 /* StarsView */ = {
+			isa = PBXGroup;
+			children = (
+				E8D0D6EE1ECA926800A99516 /* StarsView.h */,
+				E8D0D6EF1ECA926800A99516 /* StarsView.m */,
+			);
+			path = StarsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,7 +530,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				51BE16861C7C4D8100090CC9 /* LaunchScreen.storyboard in Resources */,
+				E8D0D6FC1ECA926900A99516 /* PayVC.xib in Resources */,
+				E8D0D6FE1ECA926900A99516 /* payCellDatas.plist in Resources */,
 				51BE16831C7C4D8100090CC9 /* Assets.xcassets in Resources */,
+				E8D0D7031ECA926900A99516 /* PayCell.xib in Resources */,
 				51BE16811C7C4D8100090CC9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,12 +559,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D0D6FF1ECA926900A99516 /* payCellObj.m in Sources */,
+				E8D0D7071ECA926900A99516 /* SelectMainWindowTool.m in Sources */,
+				E8D0D6F91ECA926900A99516 /* LocationTool.m in Sources */,
+				E8D0D7001ECA926900A99516 /* PayParamObj.m in Sources */,
+				E8D0D6F41ECA926800A99516 /* NSNumber+Tool.m in Sources */,
+				E8D0D6F31ECA926800A99516 /* CacheTool.m in Sources */,
+				E8D0D7081ECA926900A99516 /* StarsView.m in Sources */,
+				E8D0D7061ECA926900A99516 /* QrCodeLayer.m in Sources */,
+				E8D0D7041ECA926900A99516 /* QrCodeScanningVC.m in Sources */,
+				E8D0D6FB1ECA926900A99516 /* PayVC.m in Sources */,
+				E8D0D6F61ECA926800A99516 /* UIView+HUD.m in Sources */,
 				51BE167E1C7C4D8100090CC9 /* ViewController.m in Sources */,
 				51BE16B11C7CB34B00090CC9 /* HJPageControl.m in Sources */,
+				E8D0D7021ECA926900A99516 /* PayCell.m in Sources */,
 				5157766C1C7DE74000CB1C85 /* HJSudokuModel.m in Sources */,
+				E8D0D7051ECA926900A99516 /* GrayBackgroundLayer.m in Sources */,
+				E8D0D6F01ECA926800A99516 /* BaseParameterObj.m in Sources */,
+				E8D0D6FA1ECA926900A99516 /* OftenUse.m in Sources */,
 				51BE167B1C7C4D8100090CC9 /* AppDelegate.m in Sources */,
+				E8D0D6F51ECA926800A99516 /* NSString+Tool.m in Sources */,
+				E8D0D7011ECA926900A99516 /* PayTool.m in Sources */,
 				51BE16AC1C7C578400090CC9 /* HJSelectView.m in Sources */,
+				E8D0D6F81ECA926800A99516 /* ImgZoomVC.m in Sources */,
+				E8D0D6F21ECA926800A99516 /* UserParameterObj.m in Sources */,
+				E8D0D6FD1ECA926900A99516 /* Order.m in Sources */,
 				51BE16781C7C4D8100090CC9 /* main.m in Sources */,
+				E8D0D6F71ECA926800A99516 /* HttpClient.m in Sources */,
+				E8D0D6F11ECA926800A99516 /* BaseResultObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

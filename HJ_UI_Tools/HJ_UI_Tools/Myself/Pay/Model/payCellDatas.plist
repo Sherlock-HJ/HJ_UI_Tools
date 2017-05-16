@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imgName</key>
+		<string>aliPayLogo</string>
+		<key>payName</key>
+		<string>支付宝</string>
+		<key>payInfo</key>
+		<string>推荐支付宝用户使用</string>
+	</dict>
+	<dict>
+		<key>imgName</key>
+		<string>wePayLogo</string>
+		<key>payName</key>
+		<string>微信支付</string>
+		<key>payInfo</key>
+		<string>亿万用户的选择更快更安全</string>
+	</dict>
+</array>
+</plist>
